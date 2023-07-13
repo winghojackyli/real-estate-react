@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server",
+    "backend": "nodemon server",
+    "frontend": "npm start --prefix ../real-property-app",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "flatted": "^3.2.7",
+    "json-stringify-safe": "^5.0.1",
+    "mongoose": "^6.7.3",
+    "nodemon": "^2.0.20"
+  }
+}
