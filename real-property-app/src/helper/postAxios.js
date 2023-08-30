@@ -1,8 +1,8 @@
-import axios from "axios";
+import { request } from "../requestMethod";
 
 const postAxios = async (url, payload = {}) => {
   try {
-    const { data } = await axios.post(url, payload);
+    const { data } = await request.post(url, payload);
     return data;
   } catch (err) {
     console.log(err);

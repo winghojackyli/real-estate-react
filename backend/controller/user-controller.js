@@ -1,9 +1,6 @@
 const User = require("../model/User");
 const bcrypt = require("bcryptjs");
 
-const db_url =
-  "mongodb+srv://admin:rootadmin@cluster0.yq6jouo.mongodb.net/Rentals?retryWrites=true&w=majority";
-
 // Add new user
 // there is one admin user created
 // email: admin@test.com

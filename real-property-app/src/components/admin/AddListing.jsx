@@ -25,7 +25,7 @@ const AddListing = ({ notifyUpdate, users }) => {
     event.preventDefault();
 
     postAxios("/api/listing/", {
-      imageURL: inputs.imageURL.split(","),
+      imageURL: [inputs.imageURL1, inputs.imageURL2],
       price: Number(inputs.price),
       city: inputs.city,
       owner: inputs.owner,
@@ -55,13 +55,20 @@ const AddListing = ({ notifyUpdate, users }) => {
           <form>
             <div className="mb-3 p-2">
               <label htmlFor="imageURL" className="col-form-label">
-                ImagesURL:
+                ImagesURLs:
               </label>
               <input
                 type="text"
-                name="imageURL"
+                name="imageURL1"
                 className="form-control"
-                id="imageURL"
+                id="imageURL1"
+                onChange={inputHandler}
+              />
+              <input
+                type="text"
+                name="imageURL2"
+                className="form-control mt-2"
+                id="imageURL2"
                 onChange={inputHandler}
               />
             </div>

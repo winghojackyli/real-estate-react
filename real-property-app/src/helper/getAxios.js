@@ -1,8 +1,8 @@
-import axios from "axios";
+import { request } from "../requestMethod";
 
 const getAxios = async (url) => {
   try {
-    const { data } = await axios(url);
+    const { data } = await request.get(url);
     return data;
   } catch (err) {
     console.log(err);
