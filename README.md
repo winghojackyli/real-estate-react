@@ -105,6 +105,10 @@ The application will be accessible at `http://localhost:3000`.
 - **Bootstrap**: CSS framework for responsive and visually appealing designs.
 - **bcryptjs**: Library for hashing passwords before storing them in the database.
 
+## Deployment
+
+The application is deployed and accessible at: [Live Demo](https://real-estate-react-lime.vercel.app)
+
 ## Getting Help
 
 If you encounter issues or need assistance, feel free to [create an issue](https://github.com/winghojackyli/real-estate-react/issues) in the GitHub repository.
