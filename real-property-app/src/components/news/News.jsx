@@ -5,7 +5,7 @@ import "./News.css";
 
 const News = () => {
   const [newsList, setNewsList] = useState([]);
-  const url = `https://newsdata.io/api/1/news?apikey=${process.env.REACT_APP_NEWS_API}&q=vancouver&language=en`;
+  const url = `https://newsdata.io/api/1/news?apikey=${process.env.REACT_APP_NEWS_API_KEY}&q=vancouver&language=en`;
   useEffect(() => {
     getAxios(url)
       .then((data) => setNewsList(data.results))
