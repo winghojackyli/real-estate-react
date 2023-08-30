@@ -1,6 +1,3 @@
-I understand. Here's the revised README.md template without JWT-based Authentication:
-
----
 
 # Real Estate MERN Stack Web App
 
