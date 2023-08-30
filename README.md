@@ -3,6 +3,9 @@
 
 Welcome to the Real Estate MERN (MongoDB, Express, React, Node.js) Stack Web App! This application allows users to manage rental listings and user accounts. It is built using the MERN stack along with additional technologies like Redux Toolkit, Bootstrap, and bcryptjs for password hashing.
 
+![real-estate-react-lime vercel app_](https://github.com/winghojackyli/real-estate-react/assets/108389005/e02ce0b7-49b0-4dfd-b3ba-6b2debfbd650)
+
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
