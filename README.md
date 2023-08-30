@@ -14,6 +14,7 @@ Welcome to the Real Estate MERN (MongoDB, Express, React, Node.js) Stack Web App
 - [Features](#features)
   - [User Authentication](#user-authentication)
   - [CRUD Operations](#crud-operations)
+  - [News Updates](#news-updates)
 - [Technologies Used](#technologies-used)
 - [Getting Help](#getting-help)
 - [Contributing](#contributing)
@@ -66,8 +67,8 @@ Before you begin, ensure you have the following installed:
    ```
 
    News API key can be obtained form https://newsdata.io.
-  
-6. Run the application:
+
+5. Run the application:
 
    ```sh
    cd backend
@@ -90,6 +91,10 @@ The application will be accessible at `http://localhost:3000`.
 - **Rental Listings**: Authenticated users can perform CRUD (Create, Read, Update, Delete) operations on rental listings.
 - **User Profiles**: Users can view and update their profiles.
 
+### News Updates
+
+- **News API Integration**: The application fetches news updates from the [News API](https://newsdata.io) to provide users with the latest news articles related to real estate.
+
 ## Technologies Used
 
 - **MongoDB**: Database system used to store user data and rental listings.
@@ -103,8 +108,6 @@ The application will be accessible at `http://localhost:3000`.
 ## Getting Help
 
 If you encounter issues or need assistance, feel free to [create an issue](https://github.com/winghojackyli/real-estate-react/issues) in the GitHub repository.
-
-
 
 ### Admin Account Credentials
 
