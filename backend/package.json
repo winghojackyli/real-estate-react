@@ -5,10 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server",
-    "backend": "nodemon server",
-    "frontend": "npm start --prefix ../real-property-app",
-    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "Jacky Li",
